@@ -1,9 +1,11 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "rich-text",
+      "slider-layout#home"
     ]
   },
+
   "rich-text": { 
     "props": { 
       "text": "VTEX Store Framework",
@@ -13,3 +15,4 @@
     }
   }
 }
+

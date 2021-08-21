@@ -7,9 +7,23 @@
   },
   "header-layout.desktop": {
     "children": [
-      "sticky-layout#desktop"
+      "sticky-layout#desktop",
+      "header-row#desktopmenu"
     ]
   },
+
+  "header-row#desktopmenu": {
+    "children":[
+        "rich-text#home"
+    ]
+  },
+
+  "rich-text#home":{
+      "props":{
+        "text": "Teste"
+      }
+  },
+
   "sticky-layout#desktop": {
     "props": {
       "blockClass": "sticky-header"
@@ -18,7 +32,7 @@
   },
   "flex-layout.row#desktop": {
     "props": {
-      "horizontalAlign": "center",
+      "horizontalAlign": "left",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
@@ -28,27 +42,29 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
-      "login",
+      //"locale-switcher",
+      //"login",
       "minicart.v2"
     ]
   },
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
+
     }
   },
   "flex-layout.col#logo-desktop": {
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "horizontalAlign":"left"
+
     },
     "children": ["logo"]
   },
   "logo": {
     "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
+      "title": "Up medal Logo",
+      "url": "assets/logo/upmedal.png",
       "width": "80"
     }
   },
@@ -76,4 +92,6 @@
   "drawer": {
     "children": []
   }
+
+
 }

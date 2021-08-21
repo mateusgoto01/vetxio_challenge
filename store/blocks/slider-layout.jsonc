@@ -1,0 +1,29 @@
+{
+    "slider-layout#home": {
+        "children": [
+          "image#brand1",
+          "image#brand2"
+        ],
+        "props":{
+          "autoplay":{
+            "timeout": 10000,
+            "stopOnHover": true
+          },
+          "itemsPerPage": { "desktop": 1, "tablet": 1, "phone": 1 }
+        }
+      },
+    
+      "image#brand1": {
+        "props":{
+            "maxWidth": "50%",
+            "src": "assets/slide/BANNER-WOOD.png"
+        }
+      },
+    
+      "image#brand2": {
+        "props":{
+          "src": "assets/slide/grandesguerreiros.png"
+        }
+      }
+    
+}
