@@ -1,18 +1,97 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text",
-      "slider-layout#home"
+      "tab-layout#home"
     ]
   },
 
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+ "tab-layout#home": {
+   "children": [
+     "tab-list#home",
+     "tab-content#home"
+   ]
+ },
+
+ "tab-list#home": {
+  "children": [
+    "tab-list.item#1",
+    "tab-list.item#2",
+    "tab-list.item#3"
+    ]
+},
+
+"tab-content#home": {
+  "children": [
+    "tab-content.item#1",
+    "tab-content.item#2",
+    "tab-content.item#3"
+    ]
+},
+
+"tab-list.item#1": {
+  "props": {
+    "tabId": "Menu",
+    "label": "Menu",
+    "defaultActiveTab": true
+  }
+},
+"tab-list.item#2": {
+  "props": {
+    "tabId": "page2",
+    "label": "page2"
+  }
+},
+"tab-list.item#3": {
+  "props": {
+    "tabId": "page3",
+    "label": "page3"
+  }
+},
+"tab-content.item#1": {
+  "children": [
+    "slider-layout#home",
+    "flex-layout.row#productmenu"
+  ],
+  "props": {
+    "tabId": "Menu"
+  }
+},
+"tab-content.item#2": {
+  "children": [
+    "slider-layout#home"
+  ],
+  "props": {
+    "tabId": "page2"
+  }
+},
+
+"tab-content.item#3": {
+  "children": [
+    "slider-layout#home"
+  ],
+  "props": {
+    "tabId": "page3"
+  }
+},
+
+  "flex-layout.row#productmenu": {
+    "props": {
+      "borderWidth": 100
+    },
+    "children": [
+      "info-card#product1"  
+    ]
+  },
+
+  "info-card#product1": {
+    "props":{
+      "imageUrl": "assets/products/500k.png",
+      "isFullModeStyle": false,
+      "headline": "500k",
+      "callToActionText": "Ver detalhes",
+      "textPosition": "center"
     }
   }
+  
 }
 

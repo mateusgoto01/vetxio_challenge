@@ -7,23 +7,9 @@
   },
   "header-layout.desktop": {
     "children": [
-      "sticky-layout#desktop",
-      "header-row#desktopmenu"
+      "sticky-layout#desktop"
     ]
   },
-
-  "header-row#desktopmenu": {
-    "children":[
-        "rich-text#home"
-    ]
-  },
-
-  "rich-text#home":{
-      "props":{
-        "text": "Teste"
-      }
-  },
-
   "sticky-layout#desktop": {
     "props": {
       "blockClass": "sticky-header"
@@ -42,8 +28,6 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "search-bar",
-      //"locale-switcher",
-      //"login",
       "minicart.v2"
     ]
   },
