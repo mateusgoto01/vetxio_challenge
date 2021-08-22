@@ -15,7 +15,6 @@
     
       "image#brand1": {
         "props":{
-            "maxWidth": "50%",
             "src": "assets/slide/BANNER-WOOD.png"
         }
       },

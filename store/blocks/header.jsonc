@@ -60,10 +60,9 @@
   },
   "flex-layout.row#mobile": {
     "children": [
-      "drawer",
-      "logo",
+      "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      "login",
+      "search-bar",
       "minicart.v2"
     ],
     "props": {

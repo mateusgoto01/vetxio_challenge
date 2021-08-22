@@ -58,7 +58,8 @@
 },
 "tab-content.item#2": {
   "children": [
-    "slider-layout#home"
+    "slider-layout#home",
+    "search-result-layout.customQuery#tab2"
   ],
   "props": {
     "tabId": "page2"
@@ -67,7 +68,8 @@
 
 "tab-content.item#3": {
   "children": [
-    "slider-layout#home"
+    "slider-layout#home",
+    "search-result-layout.customQuery#tab3"
   ],
   "props": {
     "tabId": "page3"
