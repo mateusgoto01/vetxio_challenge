@@ -1,0 +1,16 @@
+
+.sliderTrack{
+    background-color: #303030;
+    border-radius: 15%;
+}
+
+.imageElement{
+    border-radius: 100px;
+}
+
+.paginationDot{
+    color: #14FF00;
+}
+.paginationDot--isActive{
+    color: #14FF00;
+}

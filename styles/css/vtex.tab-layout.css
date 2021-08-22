@@ -1,0 +1,14 @@
+.listContainer{
+    background-color: #303030;
+}
+.listItem{
+    text-align: center;
+    background-color: #303030 !important;
+    color: white !important;
+    font-weight: bold !important;
+
+}
+.listItemActive{
+    background-color: #303030;
+    color: white;
+}

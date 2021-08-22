@@ -93,7 +93,7 @@
     //Destaques para os produtos
     "rich-text#destaque1":{
         "props":{
-            "text": "Destaque 1"
+            "text": "Destaque 11"
         }
     },
 

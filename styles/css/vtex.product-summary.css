@@ -1,0 +1,16 @@
+.container{
+    background-color: #424242;
+}
+
+.brandName{
+    color: white;
+    text-align: justify;
+}
+
+.nameWrapper{
+    margin: auto;
+    text-align: center;
+}
+.priceContainer{
+    color: #14FF00;
+}

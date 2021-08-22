@@ -26,16 +26,9 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
       "search-bar",
       "minicart.v2"
     ]
-  },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-
-    }
   },
   "flex-layout.col#logo-desktop": {
     "props": {
@@ -49,7 +42,7 @@
     "props": {
       "title": "Up medal Logo",
       "url": "assets/logo/upmedal.png",
-      "width": "80"
+      "width": "100"
     }
   },
   "header-layout.mobile": {
@@ -61,7 +54,6 @@
   "flex-layout.row#mobile": {
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
       "search-bar",
       "minicart.v2"
     ],

@@ -1,0 +1,11 @@
+.container{
+    background-color: #14FF00;
+    color: white;
+    text-align: center;
+}
+
+.wrapper{
+    border-left: 50px;
+    text-align: center; 
+    display: inline-flex;
+}
