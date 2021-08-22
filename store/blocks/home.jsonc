@@ -50,7 +50,7 @@
 "tab-content.item#1": {
   "children": [
     "slider-layout#home",
-    "flex-layout.row#productmenu"
+    "search-result-layout.customQuery#tab1"
   ],
   "props": {
     "tabId": "Menu"
@@ -72,26 +72,7 @@
   "props": {
     "tabId": "page3"
   }
-},
+}
 
-  "flex-layout.row#productmenu": {
-    "props": {
-      "borderWidth": 100
-    },
-    "children": [
-      "info-card#product1"  
-    ]
-  },
-
-  "info-card#product1": {
-    "props":{
-      "imageUrl": "assets/products/500k.png",
-      "isFullModeStyle": false,
-      "headline": "500k",
-      "callToActionText": "Ver detalhes",
-      "textPosition": "center"
-    }
-  }
-  
 }
 

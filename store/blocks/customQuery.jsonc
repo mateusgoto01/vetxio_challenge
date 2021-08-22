@@ -1,0 +1,54 @@
+{
+    "search-result-layout.customQuery#tab1": {
+        "props": {
+            "querySchema": {
+              "skusFilter": "FIRST_AVAILABLE",
+              "simulationBehavior": "skip",
+              "maxItemsPerPage": 8
+            }
+          },
+        "blocks": [
+            "search-result-layout.desktop"
+        ]
+    },
+
+    "search-result-layout.desktop":{
+        "children": [
+            "search-content#tab1"
+        ],
+        "props": {
+            "preventRouteChange": true
+        }
+    },
+
+    "search-content#tab1": {
+        "blocks": [
+            "gallery#test",
+            "not-found"
+        ]
+    },
+
+    "gallery#test":{
+        "props":{
+            "layouts": [
+                {
+                    "name": "grid",
+                    "component": "GridSummary",
+                    "itemsPerRow": 2    
+                }
+            ],
+
+            "GridSummary": "product-summary.shelf#lb"
+        }
+    },
+
+    "product-summary.shelf#lb": {
+        "children":[
+            "product-summary-name",
+            "product-summary-image",
+            "product-summary-description",
+            "product-summary-price",
+            "add-to-cart-button"
+        ]
+    }
+}
